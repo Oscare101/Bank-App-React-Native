@@ -1,0 +1,70 @@
+{
+  "user": {
+    "+380689527832": {
+      "name": "Kyryl",
+      "phone": "+380689527832",
+      "cash": 4600,
+      "age": 22,
+      "icon": "boy with dog",
+
+      "card": {
+        "number": "0000000012345678",
+        "password": "1234",
+        "design": "type 1",
+        "type": " children / personal / business",
+        "commission": " - / - / 1% ",
+        "daily-fee": " 0 / 0 / 1.50",
+        "valid-to": "28.11.2023",
+        "--COMMENT--": "!!!ONLE ONE CARD CAN BE USED BY ONE USER!!!"
+      },
+
+      "history": {
+        "Wed Dec 28 2022 18:03:57": {
+          "day": "Wed Dec 28 2022",
+          "time": "18:03:57",
+          "amount": 1200,
+          "comment": "по любви",
+          "category": "home",
+          "senser-name": "Kyryl",
+          "senser-phone": "+380689527832",
+          "recipient-name": "Maryna",
+          "recipient-phone": "+380632371435"
+        },
+        "--COMMENT--": "MUCH MORE TRANSACTIONS........"
+      },
+
+      "contacts": {
+        "+380632371435": {
+          "phone": "+380632371435",
+          "name": "Maryna"
+        },
+        "--COMMENT--": "MUCH MORE CONTACTS........"
+      },
+
+      "loans": {
+        "9783215": {
+          "type": "personal loan",
+          "sum": 1000,
+          "percent": 15,
+          "day-start": "28.12.2022",
+          "pay-day": "28.01.2023"
+        },
+        "--COMMENT--": "MUCH MORE LOANS........"
+      },
+
+      "deposits": {
+        "8494299": {
+          "name": "1 month deposit",
+          "type": "casual",
+          "sum": 500,
+          "percent": 12,
+          "duration": "1 month",
+          "day-start": "28.12.2022",
+          "day-end": "28.01.2023"
+        },
+        "--COMMENT--": "MUCH MORE DEPOSITS........"
+      }
+    },
+    "--COMMENT--": "MUCH MORE USERS........"
+  }
+}
