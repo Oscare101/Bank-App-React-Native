@@ -60,7 +60,8 @@
           "percent": 12,
           "duration": "1 month",
           "day-start": "28.12.2022",
-          "day-end": "28.01.2023"
+          "day-end": "28.01.2023",
+          "count-from": "28.12.2022"
         },
         "--COMMENT--": "MUCH MORE DEPOSITS........"
       }
