@@ -1,8 +1,9 @@
 {
   "user": {
-    "+380689527832": {
+    "123@gmail.com": {
       "name": "Kyryl",
       "phone": "+380689527832",
+      "email": "123@gmail.com",
       "cash": 4600,
       "age": 22,
       "icon": "boy with dog",
@@ -25,8 +26,8 @@
           "amount": 1200,
           "comment": "по любви",
           "category": "home",
-          "senser-name": "Kyryl",
-          "senser-phone": "+380689527832",
+          "sender-name": "Kyryl",
+          "sender-phone": "+380689527832",
           "recipient-name": "Maryna",
           "recipient-phone": "+380632371435"
         },

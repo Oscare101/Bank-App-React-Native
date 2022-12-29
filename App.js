@@ -1,13 +1,13 @@
+import React from 'react'
 import { StatusBar } from 'expo-status-bar'
-import { StyleSheet, Text, View } from 'react-native'
-import CardBig from './components/cardBig'
-import CardSmall from './components/cardSmall'
+import { StyleSheet, View } from 'react-native'
+
+import MainNavigation from './screens/mainNavigation'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <CardSmall />
-      <CardBig />
+      <MainNavigation />
       <StatusBar style="auto" />
     </View>
   )
@@ -16,8 +16,5 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 })
