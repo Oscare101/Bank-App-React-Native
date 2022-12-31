@@ -12,9 +12,9 @@
         "number": "0000000012345678",
         "password": "1234",
         "design": "type 1",
-        "type": " children / personal / business",
-        "commission": " - / - / 1% ",
-        "daily-fee": " 0 / 0 / 1.50",
+        "type": " children / personal ",
+        "commission": "0",
+        "daily-fee": "0",
         "valid-to": "28.11.2023",
         "--COMMENT--": "!!!ONLE ONE CARD CAN BE USED BY ONE USER!!!"
       },
