@@ -6,12 +6,28 @@ import {
   TouchableOpacity,
   StyleSheet,
   Dimensions,
+  FlatList,
+  ScrollView,
 } from 'react-native'
-import CardDinamic from '../components/cardDinamic'
+import { MaterialCommunityIcons, FontAwesome5 } from '@expo/vector-icons'
 
+import CardDinamic from '../components/cardDinamic'
 import CardSmall from '../components/cardSmall'
 
 const width = Dimensions.get('window').width
+
+const underCardData = [
+  {
+    title: 'Transfer',
+    icon: (
+      <MaterialCommunityIcons name="bank-transfer" size={30} color="#fff" />
+    ),
+  },
+  {
+    title: 'Deposit',
+    icon: <FontAwesome5 name="piggy-bank" size={30} color="#000" />,
+  },
+]
 
 export default function MainUserScreen(props) {
   const [visibleUnderRCard, setVisibleUnderRCard] = useState(true)
@@ -32,7 +48,14 @@ export default function MainUserScreen(props) {
             { opacity: visibleUnderRCard ? 1 : 0 },
           ]}
         >
-          <Text>Some Items here</Text>
+          <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+            {underCardData.map((item, index) => (
+              <View key={index} style={styles.underCardViews}>
+                <Text style={styles.underCardTexts}>{item.title}</Text>
+                {item.icon}
+              </View>
+            ))}
+          </ScrollView>
         </View>
       </LinearGradient>
 
@@ -69,5 +92,19 @@ const styles = StyleSheet.create({
     marginTop: 20,
     width: '100%',
     height: 70,
+  },
+  underCardViews: {
+    height: 60,
+    width: 140,
+    borderRadius: 10,
+    backgroundColor: '#666',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-evenly',
+    marginLeft: 15,
+  },
+  underCardTexts: {
+    color: '#fff',
+    fontSize: 20,
   },
 })
