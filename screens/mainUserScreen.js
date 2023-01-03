@@ -6,13 +6,11 @@ import {
   TouchableOpacity,
   StyleSheet,
   Dimensions,
-  FlatList,
   ScrollView,
 } from 'react-native'
 import { MaterialCommunityIcons, FontAwesome5 } from '@expo/vector-icons'
 
 import CardDinamic from '../components/cardDinamic'
-import CardSmall from '../components/cardSmall'
 
 const width = Dimensions.get('window').width
 
